@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 int main(){
 int h_inicio, m_inicio, s_inicio;
 int duracao_segundos;
 int h_fim, m_fim, s_fim;
 long total_segundos;
   
-printf("Digite o horario de inicio(hora minuto segundo):");
+printf("Digite o horario de inicio (hora minuto segundo):");
 scanf("%d %d %d",&h_inicio, &m_inicio, &s_inicio);
 
 printf("Digite a duracao da experiencia em segundos:");
