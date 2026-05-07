@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(){
-int A,B;
-printf("Digite dois números A e B:");
-scanf("%d %d",&A,&B);
-if(A % B==0){
-    printf("O número A é divisível por B");
-}else{
-  printf("O número A não é divisível por B");
-}
-return 0;    
+    int A,B;
+    printf("Digite dois números A e B:");
+    scanf("%d %d",&A,&B);
+    if(A % B==0){
+        printf("O número A é divisível por B");
+    }else{
+        printf("O número A não é divisível por B");
+    }
+    return 0;    
 }
