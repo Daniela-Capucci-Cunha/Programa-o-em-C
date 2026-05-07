@@ -9,4 +9,5 @@ if(A % B==0){
 }else{
   printf("O número A não é divisível por B");
 }
+return 0;    
 }
